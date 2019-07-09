@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{1DDAA9CF-E1B3-5033-9BA2-38292D19842E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_4;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Add-Ons\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\Anim.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ButtonInteractableControl.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\CheckBoxToggler.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\CheckboxConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\CheckboxFillerControl.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ColorCopier.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\DialogBoxConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\EZAnim.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\InputFieldConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\MaterialGlobals.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\MaterialUIScaler.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\MaterialUIVersion.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\MenuArrowAnim.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\NavDrawerConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\RadioConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\RectTransformSnap.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\RippleAnim.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\RippleConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\RippleControl.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ScreenConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ScreenManager.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\SelectionBoxConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\SelectionBoxSubscriber.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\SelectionListItemConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ShadowAnim.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ShadowConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ShadowGen.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ShadowSnap.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\SliderConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\SnapButtonToText.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\SpriteSwapper.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\SwitchConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\TextInputLine.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ToastAnim.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ToastControl.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\Toaster.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ToggleConfig.cs" />
+     <Compile Include="Assets\Add-Ons\MaterialUI\Scripts\ToggleTextChanger.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FEAB.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FEAD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FEDC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FEGC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FEMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FEQD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FERD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Easy\FESOP.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHAB.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHAD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHDC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHGC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHQD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHRD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Hard\FHSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMAB.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMAD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMDC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMGC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMQD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMRD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\MChoice\Medium\FMSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\RSignages\BadgeControl.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\RSignages\ORound.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\RSignages\Scontrol.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFAB.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFAD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFDC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFGC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFQD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFRD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Easy\ETFSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFAB.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFAD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFDC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFGC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFQD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFRD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Hard\HTFSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFAB.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFAD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFDC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFGC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFQD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFRD.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\Medium\MTFSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\English\GCScripts\ToF\TFDifficulty.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\FRSIGNAGES\FBadgeControl.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\FRSIGNAGES\FORound.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\FRSIGNAGES\FScontrol.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\EAB.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\EAD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\EDC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\EGC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\EMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\EQD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\ERD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Easy\ESOP.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HAB.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HAD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HDC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HGC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HQD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HRD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Hard\HSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MAB.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MAD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MDC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MGC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MQD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MRD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\MChoiceF\Medium\MSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFAB.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFAD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFDC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFGC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFQD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFRD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Easy\FETFSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFAB.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFAD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFDC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFGC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFQD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFRD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Hard\FHTFSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFAB.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFAD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFDC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFGC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFMSC.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFQD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFRD.cs" />
+     <Compile Include="Assets\Content\Scripts\Tagalog\GCScripts\ToF\Medium\FMTFSOP.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\AudioManager\AudioManager.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\AudioManager\Sound.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Confirm.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Game\BackButtonScript.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Game\ClickEvent.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Game\Control.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Game\DiffSelection.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Game\MPause.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Game\Options.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Game\Pause.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\LButton.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\LSelection.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\MenuButton.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Mmenu.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\PlaySelection.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\ResetScrollbar.cs" />
+     <Compile Include="Assets\Content\Scripts\Utility\Screenfit.cs" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Add-Ons\MaterialUI\Fonts\NOTICE.txt" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\Add-Ons\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-5.6-1.0.56-Editor">
+ <HintPath>D:/PROJECT/Unity Project/SFDQ/Assets/Add-Ons/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-5.6-1.0.56-Runtime">
+ <HintPath>D:/PROJECT/Unity Project/SFDQ/Assets/Add-Ons/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-5.6-1.0.56-Runtime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
